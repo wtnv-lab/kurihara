@@ -69,7 +69,7 @@
 		</LookAt>
 		<styleUrl>#m_ylw-pushpin</styleUrl>
 		<Point>
-			<extrude>1</extrude>
+			<!--<extrude>1</extrude>-->
 			<altitudeMode>relativeToGround</altitudeMode>
 			<!--<gx:drawOrder>1</gx:drawOrder>-->
 			<coordinates>136.9006532882505,35.59333885967256,50000</coordinates>
