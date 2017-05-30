@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>pittyvaich.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>ピティヴェアック</name>
+		<description><![CDATA[<CENTER>
+<img src = "http://whiskycorner.kiev.ua/imglib/_newimage/whisky/scotland/map/speyside/pittyvaich/29156/1462.jpg" width = "160" height = "200"/>
+</CENTER>
+<h2>
+　1975年に創業、ダフタウン蒸留所の第2蒸留所として1993年まで蒸留していた蒸留所。</br>
+ブレンデッド用として原酒提供が多く、蒸留所に2002年に取り壊されたため、現在ストックされているもののみが残された原酒である。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・ピティヴェアック12年　花と動物</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>-3.133303100095723</longitude>
+			<latitude>57.4369984997811</latitude>
+			<altitude>0</altitude>
+			<heading>-8.04652504556807e-011</heading>
+			<tilt>0</tilt>
+			<range>1000.000120573692</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-3.129151388661092,57.43760618601866,100000</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

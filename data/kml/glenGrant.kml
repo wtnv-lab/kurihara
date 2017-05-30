@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>glenGrant.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>グレングラント</name>
+		<description><![CDATA[<CENTER>
+<img src = "https://media2.caskers.com/media/catalog/product/cache/1/thumbnail/1000x/9df78eab33525d08d6e5fb8d27136e95/g/l/glen-grant-10-year-old-single-malt-scotch-whisky-2.jpg" width = "200" height = "200"/>
+</CENTER>
+<h2>
+　モットーは"Simplicity"（飾りけのないこと）。</br>
+販売量世界6位のシェアを誇り、イタリアでは断トツの支持を受けている。</br>
+透き通った液色の見た目通り、ライトでドライ、フルーティー。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・グレングラント　10年</br>
+・グレングラント　メジャーリザーブ</br>
+・グレングラント　16年</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>-3.210786200067695</longitude>
+			<latitude>57.53033499968554</latitude>
+			<altitude>0</altitude>
+			<heading>-5.715098950188273e-011</heading>
+			<tilt>0</tilt>
+			<range>1000.000117150007</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-3.210744529745222,57.53007997083571,100000</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

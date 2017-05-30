@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>longmorn.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>ロングモーン</name>
+		<description><![CDATA[<CENTER>
+<img src = "https://media2.caskers.com/media/catalog/product/cache/1/thumbnail/1000x/9df78eab33525d08d6e5fb8d27136e95/l/o/longmorn-16-year-old-single-malt-scotch-whisky-2.jpg" width = "200" height = "200" />
+</CENTER>
+<h2>
+　ロングモーンとはゲール語で「聖人の場所」という意味。</br>
+蒸留所が建てられた場所にはチャペルがあったといわれ、その語源となっている。</br>
+日本では竹鶴政孝が修業した蒸留所のひとつとしても知られる。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・ロングモーン16年</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>-3.28226210002762</longitude>
+			<latitude>57.60843449994169</latitude>
+			<altitude>0</altitude>
+			<heading>-2.316318460642842e-011</heading>
+			<tilt>0</tilt>
+			<range>1000.000120572787</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-3.28226210002762,57.60843449994169,100000</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

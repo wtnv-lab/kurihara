@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>glenMoray.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>グレンマレイ</name>
+		<description><![CDATA[<CENTER>
+<img src = "http://www.lcbo.com/content/dam/lcbo/products/453951.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" width = "150" height = "200" />
+</CENTER>
+<h2>
+　1897年設立。グレンモーレンジィの姉妹蒸留所で、白ワイン樽を熟成樽に使用したことで知られる。</br>
+蒸留所の場所はかつて処刑所だったという逸話も。</br>
+麦芽の香りとともに、フルーティーでドライな風味が広がる。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・グレンマレイ12年</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>-3.345108600452112</longitude>
+			<latitude>57.64350459984803</latitude>
+			<altitude>0</altitude>
+			<heading>-3.817003551691127e-010</heading>
+			<tilt>0</tilt>
+			<range>2467.552020034429</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-3.341215741953327,57.64466194866263,100000</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

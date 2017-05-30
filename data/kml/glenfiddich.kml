@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>glenfiddich.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>グレンフィディック</name>
+		<description><![CDATA[<CENTER>
+<img src = "http://www.lcbo.com/content/dam/lcbo/products/012385.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" width = "150" height = "200"/>
+</CENTER>
+<h1>世界一のシェアを誇るシングルモルト</h1>
+<h2>
+　世界で一番売れているシングルモルトとして知られ、今なお世界シェア約15％を誇る。</br>
+川の名でもあるフィディックははゲール語で鹿を意味し、ラベルに鹿が描かれてるのはそのため。</br>
+蒸留所の歴史は古く1887年創業。</br>
+昔ながらのポットスチルを使用した伝統的な製法にこだわる、スペイサイドを代表するモルト。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・グレンフィディック12年</br>
+・グレンフィディック15年</br>
+・グレンフィディック18年</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>-3.128660099947161</longitude>
+			<latitude>57.45476450039175</latitude>
+			<altitude>0</altitude>
+			<heading>4.443711973206752e-011</heading>
+			<tilt>0</tilt>
+			<range>1000.000146792126</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-3.128660099947162,57.45476450039174,100000</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

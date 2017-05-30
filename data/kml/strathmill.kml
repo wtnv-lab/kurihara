@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>strathmill.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>ストラスミル</name>
+		<description><![CDATA[<CENTER>
+<img src = "https://img.thewhiskyexchange.com/900/strff.12yo.jpg" width = "150" height = "200" />
+</CENTER>
+<h2>
+　1891年設立当時はグレンアイラ蒸留所と呼ばれていたが、ジンで有名なギルビー社の手に渡り現在の名前に。</br>
+J&Bのキーモルトで、そのほとんどがブレンデッド用の原酒として使われるため、シングルモルトとして出回ることは非常に稀。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・ストラスミル12年　花と動物</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>-2.961395899976466</longitude>
+			<latitude>57.53987840014785</latitude>
+			<altitude>0</altitude>
+			<heading>2.013251356432888e-011</heading>
+			<tilt>0</tilt>
+			<range>1000.000126653898</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-2.961395899976465,57.53987840014784,100000</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
