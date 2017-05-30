@@ -64,10 +64,10 @@
 		<a href="https://www.openstreetmap.org/copyright" target="_blank">MapData: © OpenStreetMap contributors</a>
 	</div>
 
-<!-- チェックボックス -->
-	<div id = "check_bar" style = "display: block;">
-	<form name = "check_box">
-	<label for = "singleMalt">
+	<!-- チェックボックス -->
+	<div id="check_bar" style="display: block;">
+		<form name="check_box">
+			<label for="singleMalt">
 	<input type = "checkbox" class = "chbox" checked = "checked" id = "singleMalt">
 	シングルモルト
 	</labek>
@@ -76,20 +76,20 @@
 	<input type = "checkbox" class = "chbox" checked = "checked" id = "blendMalt">
 	ブレンデッドモルト
 	</label>
-	</br>
-	<label for = "singleGrain">
+			</br>
+			<label for="singleGrain">
 	<input type = "checkbox" class = "chbox" checked = "checked" id = "singleGrain">
 	シングルグレーン
 	</label>
-	</br>
-	<label for = "blend">
+			</br>
+			<label for="blend">
 	<input type = "checkbox" class = "chbox" checked = "checked" id = "blend">
 	ブレンデッド
 	</label>
-	</br>
-	</form>
+			</br>
+		</form>
 	</div>
-<!-- チェックボックスここまで -->
+	<!-- チェックボックスここまで -->
 
 	<script>
 		// ========== 初期化 ==========
@@ -175,7 +175,7 @@
 
 		//視点を登録：　緯度，経度，注視点の高さ，傾き，視点の高さ
 		viewPointsArray[0] = new viewPoints("全体", 54.18, -4.57, 0, -90, 15719000)
-		viewPointsArray[1] = new viewPoints("日本",  36.665726, 136.443778, 0, -30, 1335830);
+		viewPointsArray[1] = new viewPoints("日本", 36.665726, 136.443778, 0, -30, 1335830);
 		viewPointsArray[2] = new viewPoints("スコットランド", 56.65, -4.15, 0, -30, 600000);
 		viewPointsArray[3] = new viewPoints("アイルランド", 53.42, -8.06, 0, -45, 544260);
 		viewPointsArray[4] = new viewPoints("アメリカ", 35.63, -99.72, 0, -45, 4330230);
@@ -341,29 +341,21 @@
 		})
 		*/
 
-		//チェックボックス試行1
-		/*
-		var singleMalt = [];
-		for(int i = 0; i < 7; i++){
-			singleMalt[i] = kmlDataArray[i];
-		}
+		//チェックボックス
 
+		var dataSources = viewer.dataSources._dataSources;
 
-		$("#check_bar :checkbox").click(function () {
-			var elements[] = {singleMalt, blendMalt, singleGrain, blend};
-            for(var i = 0, i < elements.length; i++) {
-                if (elements[1].checked) {
-                    for(int j = 0; j < singleMalt.length; j++){
-											singleMalt[j].show = true;
-										}
+        $("#check_bar :checkbox").click(function () {
+			console.log(dataSources);
+            var elements = document.getElementsByClassName("chbox");
+            for (var i = 0, l = elements.length; l > i; i++) {
+                if (elements[i].checked) {
+                    dataSources[i].show = true;
                 } else {
-                    for(int j = 0; j < singleMalt.length; j++){
-											singleMalt[j].show = false;
-										}
+                    dataSources[i].show = false;
                 }
-            }
+           }
         });
-		*/
 
 		//時間情報入りのKML
 		//kmlDataArray[2] = new kmlData("タイムスパン", 'data/kml/timeSpans.kml');
