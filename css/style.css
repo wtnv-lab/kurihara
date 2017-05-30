@@ -310,3 +310,12 @@ input {
     margin: 0;
     padding: 0;
 }
+
+/* チェックボックス */
+#check_bar {
+    position:absolute;
+    background-color:white;
+    z-index:20000;
+    left: 8px;
+    bottom: 8px;
+}
