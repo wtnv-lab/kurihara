@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>robertBrown.kml</name>
+	<StyleMap id="msn_whiskyIconWhite">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_whiskyIconWhite</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_whiskyIconWhite</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_whiskyIconWhite">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>whiskyIconWhite.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_whiskyIconWhite">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>whiskyIconWhite.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>ロバートブラウン</name>
+		<description><![CDATA[<CENTER>
+<img src = "http://www.kakuyasu.co.jp/ec/images/goods/00470-b.jpg" width = "200" height = "200"/>
+</CENTER>
+<h2>
+　充分に熟成した富士御殿場蒸溜所のモルト原酒を中心に、グレーン原酒をブレンド。</br>
+原酒&原酒の調和した香りとまろやかな味わいが特徴の、富士御殿場蒸溜所創業ブランド。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・ロバートブラウン</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>138.9201470396764</longitude>
+			<latitude>35.25532167030764</latitude>
+			<altitude>0</altitude>
+			<heading>0.01281932283246386</heading>
+			<tilt>0</tilt>
+			<range>174103.2117500903</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_whiskyIconWhite</styleUrl>
+		<Point>
+			<!--<extrude>1</extrude>-->
+			<altitudeMode>relativeToGround</altitudeMode>
+			<!--<gx:drawOrder>1</gx:drawOrder>-->
+			<coordinates>139.1698125183987,35.08198934859372,50000</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#msn_whiskyIconWhite</styleUrl>
+		<LineString>
+			<tessellate>0</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>139.1698125183987,35.08198934859372,50000 138.8972912005663,35.33793790005374,0</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

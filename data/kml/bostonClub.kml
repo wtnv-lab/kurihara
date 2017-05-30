@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>bostonClub.kml</name>
+	<StyleMap id="msn_whiskyIconWhite">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_whiskyIconWhite</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_whiskyIconWhite</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_whiskyIconWhite">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>whiskyIconWhite.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_whiskyIconWhite">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>whiskyIconWhite.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>ボストンクラブ</name>
+		<description><![CDATA[<CENTER>
+<img src = "http://www.kakuyasu.co.jp/ec/images/goods/18215-b.jpg" width = "200" height = "200"/>
+</CENTER>
+<h2>
+　富士御殿場蒸溜所のヘビーピートモルト原酒を中心にグレーンとブレンド。</br>
+本格的なスモーキーフレーバーが気軽に楽しめ、価格を超えた確かな品質を追求している。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・ボストンクラブ豊醇原酒</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>138.9068117959956</longitude>
+			<latitude>35.33641253633281</latitude>
+			<altitude>0</altitude>
+			<heading>0.005488085897396486</heading>
+			<tilt>0</tilt>
+			<range>174075.2054676157</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_whiskyIconWhite</styleUrl>
+		<Point>
+			<!--<extrude>1</extrude>-->
+			<altitudeMode>relativeToGround</altitudeMode>
+			<!--<gx:drawOrder>1</gx:drawOrder>-->
+			<coordinates>138.7433064581601,35.10088698766352,50000</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#msn_whiskyIconWhite</styleUrl>
+		<LineString>
+			<tessellate>0</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>138.7433064581601,35.10088698766352,50000 138.8972912005663,35.33793790005374,0</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
