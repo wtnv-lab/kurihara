@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ichiro-s-malt2.kml</name>
+	<StyleMap id="msn_whiskyIcon0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_whiskyIcon0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_whiskyIcon</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_whiskyIcon">
+		<IconStyle>
+			<Icon>
+				<href>whiskyIconWhite.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sn_whiskyIcon0">
+		<IconStyle>
+			<Icon>
+				<href>whiskyIconWhite.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>イチローズモルト</name>
+		<description><![CDATA[<CENTER><img src = "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-claude/cabinet/whisky7/img67076107.jpg" width = "133.3" height = "200"/></CENTER>
+			<h2>
+　今は無き羽生蒸溜所の原酒と、秩父蒸溜所の原酒をヴァッティングして作られたリーフラベル・シリーズ。</br>
+熟成樽を入れ替えるというひと手間により、様々な味わいが楽しめる。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・ダブルディスティラリーズ</br>
+・ミズナラウッドリザーブ</br>
+・ワインウッドリザーブ</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>139.6407621600264</longitude>
+			<latitude>36.29762452126675</latitude>
+			<altitude>0</altitude>
+			<heading>0.0591432902469032</heading>
+			<tilt>0</tilt>
+			<range>398130.6011708359</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_whiskyIcon0</styleUrl>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<Point>
+			<!--<extrude>1</extrude>-->
+			<altitudeMode>relativeToGround</altitudeMode>
+			<!--<gx:drawOrder>1</gx:drawOrder>-->
+			<coordinates>139.0250989765183,36.27343229907437,50000</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>msn_whiskyIcon0</styleUrl>
+		<LineString>
+			<tessellate>0</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>139.0250989765183,36.27343229907437,50000 139.5307135003163,36.17195060016974,0</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<styleUrl>msn_whiskyIcon0</styleUrl>
+		<LineString>
+			<tessellate>0</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>139.0250989765183,36.27343229907437,50000 139.0543534125786,36.04656414953963,0</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

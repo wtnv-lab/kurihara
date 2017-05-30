@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>glenElgin.kml</name>
+	<Style id="sn_whiskyIcon">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_whiskyIcon">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_whiskyIcon</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_whiskyIcon</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_whiskyIcon">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>グレンエルギン</name>
+		<description><![CDATA[<CENTER>
+<img src = "http://shop.whiskybase.com/images/whiskies/327.jpg" width = "100" height = "200" />
+</CENTER>
+<h2>
+　1898年、ウイスキーブームの後期に創業、スペイサイドで19世紀に建設された最後の蒸留所。</br>
+スペイサイド特有のスムースでメローな蜂蜜にも似た甘さが特徴。</br>
+ホワイトホースの原酒のひとつとしても有名。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・グレンエルギン12年</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>-3.277235557722483</longitude>
+			<latitude>57.59877700208249</latitude>
+			<altitude>0</altitude>
+			<heading>0.002212542057793461</heading>
+			<tilt>25.31761060650582</tilt>
+			<range>495.9387242472005</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_whiskyIcon</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-3.277445688958215,57.59874848073239,100000</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

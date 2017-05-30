@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>benromach.kml</name>
+	<Style id="sn_whiskyIcon">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_whiskyIcon">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_whiskyIcon</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_whiskyIcon</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_whiskyIcon">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>ベンロマック</name>
+		<description><![CDATA[<CENTER>
+<img src = "https://www.jisys.co.jp/content/24/160/php9VL6b0.jpg" width = "200" height = "200" />
+</CENTER>
+<h1>小規模蒸留所でつくられる高品位モルト</h1>
+<h2>
+　ベンロマックはスペイサイドでもっとも小さな蒸留所。</br>
+蒸留作業をしているのはわずか2名という規模だが、逆にほかではできない限定ボトルの発売などユニークな取り組みをすることでも知られる。</br>
+シェリー樽とバーボン樽で熟成した後、オロロソ・シェリー樽にてフィニッシュ。</br>
+ピート＆シェリーの融和が絶妙。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+ベンロマック10年</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>-3.619740006799117</longitude>
+			<latitude>57.61356423383046</latitude>
+			<altitude>0</altitude>
+			<heading>0.0002257051404344835</heading>
+			<tilt>23.50606791455192</tilt>
+			<range>314.2529799383464</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_whiskyIcon</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-3.620027411275784,57.61360600088194,100000</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

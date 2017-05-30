@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>yamazaki.kml</name>
+	<StyleMap id="msn_whiskyIcon0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_whiskyIcon0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_whiskyIcon</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_whiskyIcon0">
+		<IconStyle>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2000000</color>
+		</LineStyle>
+	</Style>
+	<Style id="sh_whiskyIcon">
+		<IconStyle>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2000000</color>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>山崎</name>
+		<description><![CDATA[<h1>日本独特の繊細な味わいを追求</h1>
+		<CENTER><img src = "https://images-na.ssl-images-amazon.com/images/G/09/aplusautomation/vendorimages/59f5e16a-19ae-45a9-8249-f1f4182dd01b.jpg._CB311788753__SR300,300_.jpg" width = "200" height = "200"/></CENTER>
+<h2>
+　「山崎」の歴史は日本初のモルト蒸溜所が開設された1923年に遡る。</br>
+千利休も愛したと言われる「離宮の水」を使い、日本独特のミズナラの樽で仕込むなど、工夫と努力を積み重ね、1984年に初めて「山崎」の名を冠したウイスキーが誕生した。</br>
+日本人の味覚に合わせたその繊細な味と香りは世界中の愛好者から「高貴」と称される。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・山崎</br>
+・山崎12年</br>
+・山崎18年</br>
+・山崎25年</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>135.6743798449125</longitude>
+			<latitude>34.89236573232964</latitude>
+			<altitude>0</altitude>
+			<heading>-2.115975321257456e-009</heading>
+			<tilt>0</tilt>
+			<range>1007.165462462311</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_whiskyIcon0</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>135.6743798449125,34.89236573232964,100000</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

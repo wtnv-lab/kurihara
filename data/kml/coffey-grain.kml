@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>coffey-grain.kml</name>
+	<StyleMap id="msn_whiskyIcon">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_whiskyIcon</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_whiskyIcon</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_whiskyIcon">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2000000</color>
+			<width>1</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_whiskyIcon">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2000000</color>
+			<width>1</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>ニッカ カフェグレーン</name>
+		<description><![CDATA[<CENTER>
+<img src = "https://www.musashiya-net.co.jp/upload/save_image/05021053_5181c71f72e19.jpg" width = "200" height = "200"/>
+</CENTER>
+<h2>
+　世界でも稀少な”カフェ式連続式蒸溜機”を持つニッカウヰスキー。</br>
+蒸溜効率は落ちるものの原料由来の香りや成分がしっかりと残るカフェ式で造られたグレーンウイスキーは、非常に味わい深い。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・ニッカ　カフェグレーン</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>140.649740099929</longitude>
+			<latitude>38.31200869989288</latitude>
+			<altitude>0</altitude>
+			<heading>-4.402841845549946e-011</heading>
+			<tilt>0</tilt>
+			<range>1000.000019842127</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_whiskyIcon</styleUrl>
+		<Point>
+			<!--<extrude>1</extrude>-->
+			<altitudeMode>relativeToGround</altitudeMode>
+			<!--<gx:drawOrder>1</gx:drawOrder>-->
+			<coordinates>141.149740099929,38.31200869989288,100000</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#msn_whiskyIcon</styleUrl>
+		<LineString>
+			<tessellate>0</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>141.149740099929,38.31200869989288,100000 140.649740099929,38.31200869989288,0</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

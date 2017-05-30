@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>superNikka.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>whiskyIconWhite.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>whiskyIconWhite.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>スーパーニッカ</name>
+		<description><![CDATA[<CENTER>
+<img src = "http://ecx.images-amazon.com/images/I/41doLCdp8ZL._SL200_.jpg" width = "200" height = "200" />
+</CENTER>
+<h2>
+　余市と宮城峡のモルトと、カフェグレーンの三種類の原酒をブレンド。</br>
+ウッディ＆バニラの香りとスムースな口当たりが心地よく、ハイボールや水割りにしても腰砕けにならず、多様な飲み方で「ウイスキーの旨さ」が楽しめる。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・スーパーニッカ</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>141.3847368337528</longitude>
+			<latitude>40.6100277227451</latitude>
+			<altitude>0</altitude>
+			<heading>2.010226261205439</heading>
+			<tilt>0</tilt>
+			<range>752377.6187350508</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<!--<extrude>1</extrude>-->
+			<altitudeMode>relativeToGround</altitudeMode>
+			<!--<gx:drawOrder>1</gx:drawOrder>-->
+			<coordinates>140.9696007081024,40.30116262894448,50000</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>0</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>140.9696007081024,40.30116262894448,50000 141.2926292988072,43.18554558183266,0</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>0</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>140.9696007081024,40.30116262894448,50000 140.649740099929,38.31200869989288,0</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

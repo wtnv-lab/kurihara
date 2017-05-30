@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>komagatake.kml</name>
+	<StyleMap id="msn_whiskyIcon0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_whiskyIcon0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_whiskyIcon</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_whiskyIcon0">
+		<IconStyle>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2000000</color>
+		</LineStyle>
+	</Style>
+	<Style id="sh_whiskyIcon">
+		<IconStyle>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2000000</color>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>駒ヶ岳</name>
+		<description><![CDATA[<CENTER><img src = "https://www.hombo.co.jp/item/whisky_brandy/puremalt_whisky/img/itemdetail_pht.jpg" width = "200" height = "200"/></CENTER>
+			<h2>
+　標高798m、中央アルプスの駒ヶ岳山麓・信州マルス蒸留所で造られる。</br>
+熟した果実を想わせるフルーティーなアロマと、深みのあるシェリー香が上品に調和した長期熟成モルトウイスキー。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・モルテージ駒ヶ岳　ピュアモルトウイスキー</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>137.9008593997112</longitude>
+			<latitude>35.74733929945441</latitude>
+			<altitude>0</altitude>
+			<heading>-1.687188841875951e-010</heading>
+			<tilt>0</tilt>
+			<range>1000.000102143141</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_whiskyIcon0</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>137.9008593997112,35.74733929945441,100000</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

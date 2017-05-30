@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ichiro&apos;sMalt.kml</name>
+	<Style id="sh_whiskyIcon">
+		<IconStyle>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2000000</color>
+		</LineStyle>
+	</Style>
+	<Style id="sn_whiskyIcon0">
+		<IconStyle>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2000000</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_whiskyIcon0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_whiskyIcon0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_whiskyIcon</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>イチローズモルト</name>
+		<description><![CDATA[<CENTER><img src = "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-claude/cabinet/whisky7/ichirothepeated.jpg?_ex=450x450&s=2&r=1" width = "133.3" height = "200"/></CENTER>
+			<h2>
+　2008年～2010年の原酒を使用した「ON THE WAY」、スモークベーコンや焚火を思わせるような「THE PEATED」など、少量生産の限定品を定期的にリリース。</br>
+国内外を問わず注目度が高い。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・秩父 ON THE WAY</br>
+・秩父 THE PEATED</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>139.0543534125786</longitude>
+			<latitude>36.04656414953963</latitude>
+			<altitude>0</altitude>
+			<heading>-2.47419101725571e-008</heading>
+			<tilt>0</tilt>
+			<range>1052.62363555991</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_whiskyIcon0</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.0543534125786,36.04656414953963,100000</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

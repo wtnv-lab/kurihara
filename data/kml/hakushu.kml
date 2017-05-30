@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>hakushu.kml</name>
+	<Style id="sh_whiskyIcon">
+		<IconStyle>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2000000</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_whiskyIcon0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_whiskyIcon0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_whiskyIcon</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_whiskyIcon0">
+		<IconStyle>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2000000</color>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>白州</name>
+		<description><![CDATA[<h1>「森の蒸溜所」で作られたウイスキー</h1>
+		<CENTER><img src = "https://images-na.ssl-images-amazon.com/images/G/09/aplusautomation/vendorimages/e2cd729e-3fda-4fd2-822a-7bce69c0a07b.jpg._CB524662910__SL300__.jpg" width = "200" height = "200"/></CENTER>
+<h2>
+　白州が「森のシングルモルト」の異名を取るのは蒸溜所が森林に囲まれているためだ。</br>
+標高が高く、寒冷な気候で熟成が早い。そしてマザーウォーターは上質の軟水。</br>
+こうした自然環境が、クリアな味わいとスムージィな舌触りという白州の特徴を作り出している。</br>
+ピートの香りは海を連想させるが、白州の香りには森の木々が垣間見える。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・白州</br>
+・白州12年</br>
+・白州18年</br>
+・白州25年</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>138.3005342799123</longitude>
+			<latitude>35.82676410497587</latitude>
+			<altitude>0</altitude>
+			<heading>1.994172799176129e-009</heading>
+			<tilt>0</tilt>
+			<range>1031.137684398645</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_whiskyIcon0</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>138.3005342799123,35.82676410497587,100000</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

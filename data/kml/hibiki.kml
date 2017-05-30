@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>hibiki.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>whiskyIconWhite.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>whiskyIconWhite.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>響</name>
+		<description><![CDATA[<CENTER>
+<img src = "http://www.suntory.co.jp/news/2014/l_img/l_12233-1.jpg" width = "150" height = "200" />
+</CENTER>
+<h1>日本人が作る最高のブレンデッドウィスキーを</h1>
+<h2>
+　「日本人による日本人のための」ウイスキー造りにまい進してきたサントリーが、1989年に満を持して「最高峰のブレンデッド」と銘打って世に送り出したのが「響」。</br>
+山崎・白州の蒸溜所のシングルモルト、グレーンを絶妙の割合でブレンドする。</br>
+24面体にカットされたボディは24時間とともに24節気を表している。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・響12年</br>
+・響17年</br>
+・響21年</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>136.7916040963175</longitude>
+			<latitude>35.30454201794975</latitude>
+			<altitude>0</altitude>
+			<heading>-0.698329123584041</heading>
+			<tilt>0</tilt>
+			<range>625530.2881300587</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<!--<gx:drawOrder>1</gx:drawOrder>-->
+			<coordinates>136.9006532882505,35.59333885967256,50000</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>0</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>136.9006532882505,35.59333885967256,50000 135.6743798449125,34.89236573232964,0</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>0</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>136.9006532882505,35.59333885967256,50000 138.3005342799123,35.82676410497587,0</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

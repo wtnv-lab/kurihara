@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>fuji-sanroku.kml</name>
+	<Style id="sh_whiskyIcon">
+		<IconStyle>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2000000</color>
+		</LineStyle>
+	</Style>
+	<Style id="sn_whiskyIcon0">
+		<IconStyle>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2000000</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_whiskyIcon0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_whiskyIcon0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_whiskyIcon</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>富士山麓</name>
+		<description><![CDATA[<h1>豊かな香りとなめらかな口当たり</h1>
+		<CENTER><img src = "http://www.kakuyasu.co.jp/ec/images/goods/41021-b.jpg" width = "200" height = "200"/></CENTER>
+<h2>
+　「澄んだ味わいの中に広がる甘い樽熟香」をもつウイスキーを造ることを目標に、設立された富士御殿場蒸溜所。</br>
+豊かな水とウイスキー造りに適した自然環境を有する富士の裾野で、ゆっくり熟成されるシングルモルトは、豊かな香りとなめらかな口当たり、やわらかな味わいが特徴。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・富士山麓　シングルモルト18年</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>138.8972912005663</longitude>
+			<latitude>35.33793790005374</latitude>
+			<altitude>0</altitude>
+			<heading>3.275462433158389e-010</heading>
+			<tilt>0</tilt>
+			<range>999.9999825503869</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_whiskyIcon0</styleUrl>
+		<Point>
+			<!--<extrude>1</extrude>-->
+			<altitudeMode>relativeToGround</altitudeMode>
+			<!--<gx:drawOrder>1</gx:drawOrder>-->
+			<coordinates>138.3972912005663,35.33793790005374,100000</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#msn_whiskyIcon0</styleUrl>
+		<LineString>
+			<tessellate>0</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>138.3972912005663,35.33793790005374,100000 138.8972912005663,35.33793790005374,0</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

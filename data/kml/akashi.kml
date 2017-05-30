@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>akashi.kml</name>
+	<StyleMap id="msn_whiskyIcon0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_whiskyIcon0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_whiskyIcon</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_whiskyIcon">
+		<IconStyle>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2000000</color>
+		</LineStyle>
+	</Style>
+	<Style id="sn_whiskyIcon0">
+		<IconStyle>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2000000</color>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>あかし</name>
+		<description><![CDATA[<h1>兵庫県・明石市のシングルモルト</h1>
+		<CENTER><img src = "http://www.ei-sake.jp/onlineshop/img/whiskey_s_akashi.jpg" width = "112" height = "200"/></CENTER>
+<h2>
+　兵庫県明石市の江井ヶ嶋酒造は1919年にウイスキー製造免許を取得、以降日本においてウイスキー造りを長年行ってきた。</br>
+英国から取り寄せた大麦麦芽と、清酒用仕込水である地下水を使用。</br>
+リーズナブルな価格ながら、まろやかで上質なウイスキーを作り続けている。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・ホワイトオークシングルモルトあかし</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>134.906016826456</longitude>
+			<latitude>34.68108560415378</latitude>
+			<altitude>0</altitude>
+			<heading>1.297030199100822e-011</heading>
+			<tilt>0</tilt>
+			<range>1004.21891344178</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_whiskyIcon0</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>134.906016826456,34.68108560415378,100000</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

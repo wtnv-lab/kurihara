@@ -8,7 +8,7 @@
 	<meta property="og:image" content="data/hinoshi.png" />
 	<meta property="og:description" content="Cesiumを使った日野市オープンデータ可視化のサンプルです" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-	<title>日野市オープンデータ可視化</title>
+	<title>WHISKY MAP</title>
 	<link rel="alternate" href="http://hiroshima.archiving.jp/index_en.html" hreflang="en" />
 	<link rel="SHORTCUT ICON" href="http://shinsai.mapping.jp/favicon.ico">
 	<style>
@@ -63,8 +63,9 @@
 	<div id="osmCredit">
 		<a href="https://www.openstreetmap.org/copyright" target="_blank">MapData: © OpenStreetMap contributors</a>
 	</div>
+	<div id = "chbox"></div>
 	<script>
-		// ========== 初期化 ========== 
+		// ========== 初期化 ==========
 
 		//スマホで閲覧した際に，スワイプによるスクロールを禁止
 
@@ -90,7 +91,7 @@
 			$(svNotAvailable).hide();
 		});
 
-		// ========== ビューア初期化 ========== 
+		// ========== ビューア初期化 ==========
 
 		var viewer = new Cesium.Viewer('cesiumContainer', {
 			imageryProvider: new Cesium.ArcGisMapServerImageryProvider({
@@ -130,7 +131,7 @@
 		fog.density = 0.0005;
 		fog.screenSpaceErrorFactor = 100.0;
 
-		// ========== 視点関連 ========== 
+		// ========== 視点関連 ==========
 
 		//視点配列を作成
 
@@ -146,10 +147,12 @@
 		var viewPointsArray = [];
 
 		//視点を登録：　緯度，経度，注視点の高さ，傾き，視点の高さ
-
-		viewPointsArray[0] = new viewPoints("首都大", 35.661, 139.3657347, 0, -45, 1000);
-		viewPointsArray[1] = new viewPoints("日野市", 35.654, 139.394, 0, -89, 15000);
-		viewPointsArray[2] = new viewPoints("初期視点", 35.654, 139.394, 0, -35, 5000);
+		viewPointsArray[0] = new viewPoints("全体", 54.18, -4.57, 0, -90, 15719000)
+		viewPointsArray[1] = new viewPoints("日本",  36.665726, 136.443778, 0, -30, 1335830);
+		viewPointsArray[2] = new viewPoints("スコットランド", 56.65, -4.15, 0, -30, 753710);
+		viewPointsArray[3] = new viewPoints("アイルランド", 53.42, -8.06, 0, -45, 544260);
+		viewPointsArray[4] = new viewPoints("アメリカ", 35.63, -99.72, 0, -45, 4330230);
+		viewPointsArray[5] = new viewPoints("カナダ", 58.32, -103.07, 0, -45, 4330230);
 
 		//視点メニューを作成
 
@@ -195,7 +198,7 @@
 			navigator.geolocation.getCurrentPosition(fly);
 		}
 
-		// ========== 以降，起動シークエンス ========== 
+		// ========== 以降，起動シークエンス ==========
 
 		//クレジットを隠す
 
@@ -208,21 +211,24 @@
 
 		function groundZero() {
 			//視点を移動：視点番号，デュレーション
-			changeViewPoint(1, 3);
+			changeViewPoint(0, 3);
 			//オーバレイを追加
 			openStreetMapLayer();
-			setTimeout('landing()', 4000);
+			//setTimeout('landing()', 4000);
+			setTimeout('loadKml()', 4000);
 		}
 
+		/*
 		function landing() {
 			//視点を移動：視点番号，デュレーション
-			changeViewPoint(2, 3);
+			changeViewPoint(0, 3);
 			//ローディングGIFを表示
 			setTimeout('fadeInOut(blackOutDiv,1)', 3000);
 			setTimeout('loadKml()', 3000);
 		}
+		*/
 
-		// ========== KMLをロード ========== 
+		// ========== KMLをロード ==========
 
 		//KML配列を作成
 
@@ -233,8 +239,55 @@
 
 		var kmlDataArray = [];
 		//KMLデータを登録．kmzでもOK
-		kmlDataArray[0] = new kmlData("避難所", 'data/kml/hinanjo.kml');
-		kmlDataArray[1] = new kmlData("避難場所", 'data/kml/hinanbasyo.kml');
+		//singleMaltJap
+		kmlDataArray[0] = new kmlData("yoichi", 'data/kml/yoichi.kml');
+		kmlDataArray[1] = new kmlData("miyagikyo", 'data/kml/miyagikyo.kml');
+		kmlDataArray[2] = new kmlData("yamazaki", 'data/kml/yamazaki.kml');
+		kmlDataArray[3] = new kmlData("hakushu", 'data/kml/hakushu.kml');
+		kmlDataArray[4] = new kmlData("fuji-sanroku", 'data/kml/fuji-sanroku.kml');
+		kmlDataArray[5] = new kmlData("akashi", 'data/kml/akashi.kml');
+		kmlDataArray[6] = new kmlData("ichiro's-malt", 'data/kml/ichiro-s-malt.kml');
+		//blendMaltJap
+		kmlDataArray[7] = new kmlData("taketsuru", 'data/kml/taketsuru.kml');
+		kmlDataArray[8] = new kmlData("pure-malt", 'data/kml/pure-malt.kml');
+		kmlDataArray[9] = new kmlData("ichiro's-malt2", 'data/kml/ichiro-s-malt2.kml');
+		//singleGrainJap
+		kmlDataArray[10] = new kmlData("komagatake", 'data/kml/komagatake.kml');
+		kmlDataArray[11] = new kmlData("chita", 'data/kml/chita.kml');
+		kmlDataArray[12] = new kmlData("coffey-grain", 'data/kml/coffey-grain.kml');
+		kmlDataArray[13] = new kmlData("fuji-singleGrain", 'data/kml/fuji-singleGrain.kml');
+		//blendJap
+		kmlDataArray[14] = new kmlData("hibiki", 'data/kml/hibiki.kml');
+		kmlDataArray[15] = new kmlData("superNikka", 'data/kml/superNikka.kml');
+
+		//singleMaltScotch
+		kmlDataArray[16] = new kmlData("benromach", 'data/kml/benromach.kml');
+		kmlDataArray[17] = new kmlData("glenElgin", 'data/kml/glenElgin.kml');
+		
+
+		/*
+		var singleMalt = [];
+		for(int i = 0; i < 7; i++){
+			singleMalt[i] = kmlDataArray[i];
+		}
+
+
+		$("#check_bar :checkbox").click(function () {
+			var elements[] = {singleMalt, blendMalt, singleGrain, blend};
+            for (var i = 0, i < elements.length; i++) {
+                if (elements[1].checked) {
+                    for(int j = 0; j < singleMalt.length; j++){
+											singleMalt[j].show = true;
+										}
+                } else {
+                    for(int j = 0; j < singleMalt.length; j++){
+											singleMalt[j].show = false;
+										}
+                }
+            }
+        });
+		*/
+
 		//時間情報入りのKML
 		//kmlDataArray[2] = new kmlData("タイムスパン", 'data/kml/timeSpans.kml');
 
@@ -272,7 +325,7 @@
 			}, 200);
 		}
 
-		// ========== 地図オーバレイを作成 ========== 
+		// ========== 地図オーバレイを作成 ==========
 
 		// オーバレイ配列
 
@@ -314,7 +367,7 @@
 			overlayListMenu.innerHTML = overlayList;
 		}
 
-		//オーバレイの透明度を変更 
+		//オーバレイの透明度を変更
 
 		function transParent(layer) {
 			var id = overlayDataArray[layer].id;
@@ -358,7 +411,7 @@
 			);
 		}
 
-		// ========== ダブルクリックでストビューを表示 ========== 
+		// ========== ダブルクリックでストビューを表示 ==========
 
 		//移動前のカメラ位置格納オブジェクト
 
@@ -422,13 +475,13 @@
 			}, Cesium.ScreenSpaceEventType.LEFT_DOUBLE_CLICK);
 		}
 
-		// ========== ヘルプへリンク ========== 
+		// ========== ヘルプへリンク ==========
 
 		function help() {
 			window.open('https://github.com/wtnv-lab/cesiumGitHubPages');
 		}
 
-		// ========== 各種DIVのフェードイン・アウト ========== 
+		// ========== 各種DIVのフェードイン・アウト ==========
 
 		function fadeInOut(layer, param) {
 			if (param == 0) {

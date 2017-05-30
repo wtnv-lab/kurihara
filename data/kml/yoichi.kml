@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>yoichi.kml</name>
+	<Style id="sh_whiskyIcon">
+		<IconStyle>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2000000</color>
+			<width>1</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_whiskyIcon0">
+		<IconStyle>
+			<Icon>
+				<href>whiskyIcon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2000000</color>
+			<width>1</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_whiskyIcon0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_whiskyIcon0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_whiskyIcon</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>余市</name>
+		<description><![CDATA[<h1>「石炭直火蒸溜」由来の力強く重厚な味わい</h1>
+		<CENTER><img src = "https://www.stock-lab.com/liquor/wp/wp-content/uploads/2015/12/61pwaoH4oQL._SL1000_.jpg" width = "200" height = "200"/></CENTER>
+<h2>　スコットランドに近い環境でウイスキー造りをするために、竹鶴政孝が立ち上げたのが余市蒸留所。</br>
+1936年操業を開始し、初出荷されたのが1940年。本場に近い風土気候で蒸溜・貯蔵される余市は、シングルモルトらしい重厚さと深い余韻が特徴的。</br>
+スコットランドにも残っていない伝統的な「石炭直火蒸溜」で蒸溜されている。</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・シングルモルト余市</br>
+・シングルモルト余市　10年</br>
+・シングルモルト余市　12年</br>
+・シングルモルト余市　15年</br>
+・シングルモルト余市　20年</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>140.7928315348283</longitude>
+			<latitude>43.18583602901389</latitude>
+			<altitude>0</altitude>
+			<heading>0.0001504524031555258</heading>
+			<tilt>0</tilt>
+			<range>999.7209957182588</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_whiskyIcon0</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>141.2926292988072,43.18554558183266,100000</coordinates>
+		</Point>
+	</Placemark>
+	<!--
+	<Placemark>
+		<styleUrl>#msn_whiskyIcon0</styleUrl>
+		<LineString>
+			<tessellate>0</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>141.292629,43.185546,100000 140.792629,43.185546,0</coordinates>
+		</LineString>
+	</Placemark>
+-->
+</Document>
+</kml>

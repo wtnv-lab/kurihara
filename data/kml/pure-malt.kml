@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>pure-malt.kml</name>
+	<Style id="sh_whiskyIcon">
+		<IconStyle>
+			<Icon>
+				<href>whiskyIconWhite.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sn_whiskyIcon0">
+		<IconStyle>
+			<Icon>
+				<href>whiskyIconWhite.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_whiskyIcon0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_whiskyIcon0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_whiskyIcon</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>ピュアモルト</name>
+		<description><![CDATA[<CENTER><img src = "http://www.saketen.jp/shopimages/osakeee/0000000008962.jpg" width = "200" height = "200"/></CENTER>
+			<h2>
+　余市蒸溜所のモルトが主体の「ブラック」、宮城峡蒸溜所のモルトが主体の「レッド」、余市蒸溜所のヘビーピートタイプのモルトが主体の「ホワイト」、それぞれ特徴の異なる味わいが楽しめる。
+</h2>
+</br>
+<h3>シリーズ</h3>
+<p>
+・ピュアモルト　ブラック</br>
+・ピュアモルト　レッド</br>
+・ピュアモルト　ホワイト</br>
+</p>]]></description>
+		<LookAt>
+			<longitude>140.4300096405849</longitude>
+			<latitude>40.73259229073752</latitude>
+			<altitude>0</altitude>
+			<heading>0.804239466578377</heading>
+			<tilt>0</tilt>
+			<range>1335855.546516906</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_whiskyIcon0</styleUrl>
+		<Point>
+			<!--<extrude>1</extrude>-->
+			<altitudeMode>relativeToGround</altitudeMode>
+			<!--<gx:drawOrder>1</gx:drawOrder>-->
+			<coordinates>141.8573390549771,40.7265441318241,50000</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<styleUrl>msn_whiskyIcon0</styleUrl>
+		<LineString>
+			<tessellate>0</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>141.8573390549771,40.7265441318241,50000 141.2926292988072,43.18554558183266,0</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<styleUrl>msn_whiskyIcon0</styleUrl>
+		<LineString>
+			<tessellate>0</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>141.8573390549771,40.7265441318241,50000 140.649740099929,38.31200869989288,0</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
